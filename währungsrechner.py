@@ -1,0 +1,5 @@
+print("Herzlich Willkommen beim Währungsrechner")
+print("")
+euro = input("Bitte Betrag in Euro eingeben: ")
+dollar = 1.07 * float(euro)
+print(f"Der betrag entspricht  {dollar} Dollar")
